@@ -1,5 +1,23 @@
+:root
+{
+    --color-dark: #783f01;
+    --color-light:#ff8400;
+}
+
+
 body{
     margin: 0%;   
+}
+
+
+.d1
+{
+    align-items: center;
+    background: var(--color-light);
+    background: linear-gradient(to top right, var(--color-dark), var(--color-light));
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
 }
 
 header{

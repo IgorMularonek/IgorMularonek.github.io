@@ -1,5 +1,5 @@
 body{
-    margin: 0%;   
+    margin: 0%;
 }
 
 .logo{
@@ -25,8 +25,8 @@ body{
 header{
     background-color: black;
     height: 85px;
-    width: 1920px;
     max-width: 1920px;
+    margin: auto;
 }
 ul{
     margin: 0%;
@@ -97,25 +97,18 @@ ul li:hover ul{
     background-position: center;
 }
 
-.oferty1{
-    display: flex;
+section
+{
     max-width: 1920px;
-    padding-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 
-.oferty1 a{
+section a{
     color: black;
     
-}
-
-.oferty2{
-    display: flex;
-    max-width: 1920px;
-    padding-left: 80px;
-}
-
-.oferty2 a{
-    color: black;
 }
 
 .oferta1{
